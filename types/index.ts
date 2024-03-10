@@ -87,7 +87,7 @@ export type Event = {
     startDateTime: Date
     endDateTime: Date
     url: string
-    organizer: {
+    organise: {
         _id: string
         firstName: string
         lastName: string
