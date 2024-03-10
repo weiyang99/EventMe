@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
     return (
         <>
             <section className='bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10'>
@@ -57,4 +57,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Home
