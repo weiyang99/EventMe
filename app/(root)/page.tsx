@@ -28,7 +28,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
                             Host, Connect, Celebrate: Your Events, Our Platform!
                         </h1>
                         <p className='p-regular-20 md:p-regular-24'>
-                            Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.
+                            Book and enjoy a widespread of different events together right now!!
                         </p>
                         <Button size="lg" asChild className="button w-full sm:w-fit">
                             <Link href="#events">
