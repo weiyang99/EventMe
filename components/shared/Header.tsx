@@ -13,7 +13,7 @@ const Header = () => {
                 <Link href="/" className='w-36'>
                     <Image
                         src="/assets/images/logo.svg"
-                        width={128}
+                        width={148}
                         height={38}
                         alt='Event-Me logo'
                     />

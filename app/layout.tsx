@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import NextTopLoader from 'nextjs-toploader';
 
 import { ClerkProvider } from '@clerk/nextjs'
 
@@ -26,7 +27,12 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={poppins.variable}>{children}</body>
+        <body className={poppins.variable}>
+          <NextTopLoader
+            color="#624CF5"
+          />
+          {children}
+        </body>
       </html>
     </ClerkProvider>
   );
