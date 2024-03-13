@@ -16,4 +16,4 @@ Here are some usages of the app:
 - Search or filter by category
 
 ## Link
-[link](https://event-me.vercel.app/)
+https://event-me.vercel.app/
